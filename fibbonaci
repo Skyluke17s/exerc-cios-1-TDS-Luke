@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int anterior;
+int atual;
+int resultado;
+//////totalmente não copiado/////
+int main (){
+
+int anterior = 0;
+int atual = 1; 
+printf ("sequência de numeros daoras\n");
+printf ("aperte enter");
+
+while(resultado = 610) {
+    resultado = anterior + atual;
+     getchar (); 
+    printf ("%d\n", resultado);
+    anterior = atual;
+    atual = resultado;
+     
+}
+ } 
